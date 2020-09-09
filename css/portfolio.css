@@ -1,0 +1,113 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95) 50%, rgba(0, 0, 0, 0.6)),
+    url(/img/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mastheadAlt {
+  height: 40vh;
+  min-height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95) 50%, rgba(0, 0, 0, 0.6)),
+    url(/img/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  padding: 0;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%;
+  /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #4caf50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.naama {
+  width: 333px;
+  height: 608px;
+  float: right;
+}
+
+footer {
+  text-align: center;
+}
+
+.more {
+  font-size: 100px;
+}
+
+.portfolioImg {
+  width: 140px;
+  height: 200px;
+}
+
+/*Lightbox */
+.blog-container-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.blog-container-gallery img {
+  margin: 10px;
+  width: 60%;
+  height: auto;
+}
+
+.blog-gallery-image-wrapper {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.blog-gallery-image-wrapper span {
+  display: block;
+}

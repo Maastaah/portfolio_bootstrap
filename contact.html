@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="https://kit.fontawesome.com/36872c4548.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/portfolio-scripts.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <title>Jesse Mäkinen - Portfolio</title>
+</head>
+
+<body>
+    <header class="mastheadAlt">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center text-white">
+                    <h1 class="font-weight-light">Jesse Mäkinen</h1>
+                    <p class="lead">Satakunnan Ammattikorkeakoulu</p>
+                    <h3>Portfolio</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="navbar sticky-top">
+        <a href="index.html"><i class="fas fa-home"></i> Etusivu</a>
+        <a href="portfolio.html"><i class="fas fa-laptop-code"></i> Portfolio</a>
+        <a href="blog.html"><i class="fas fa-newspaper"></i> Blog</a>
+        <a class="active" href="contact.html"><i class="far fa-id-card"></i> Yhteystiedot</a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 p-0 mt-5">
+                <h1>Kiinnostuitko?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <h3>Ota yhteyttä!</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mt-5">
+                <div class="row">
+                    Nimi: Jesse Mäkinen
+                </div>
+                <div class="row">
+                    Sähköposti:<a href="mailto:jessemakinen@hotmail.com">jessemakinen@hotmail.com</a>
+                </div>
+                <div class="row">
+                    Puhelinnumero: 0409108303
+                </div>
+            </div>
+            <div class="col-md-6 mt-5">
+                <h3><del>Tai voit ottaa yhteyttä myös alla olevalla lomakkeella!</del></h3>
+                <fieldset disabled>
+                    <form action="php\contact_form.php" method="post" enctype="text/plain">
+                        <Label class="mt-2">Etunimi</Label>
+                        <input type="text" name="fname" class="form-control" placeholder="Nimi..">
+                        <label class="mt-2">Sukunimi</label>
+                        <input type="text" name="lname" class="form-control" placeholder="Sukunimi..">
+                        <label class="mt-2">Puhelinnumero</label>
+                        <input type="text" name="number" class="form-control" placeholder="Puhelinnumero..">
+                        <label class="mt-2">Sähköposti</label>
+                        <input type="text" name="email" class="form-control" placeholder="Email..">
+                        <label class="mt-2">Aihe:</label>
+                        <textarea class="form-control" name="subject" placeholder="Kerro asiasi.."></textarea>
+                        <input type="submit" class="btn btn-primary mt-2" name="submit" value="Lähetä">
+                    </form>
+                </fieldset>
+            </div>
+
+        </div>
+    </div>
+    <footer class="col-12 mt-5">
+        <address>Jesse Mäkinen, Satakunnan Ammattikorkeakoulu, 0409108303, jessemakinen@hotmail.com</address>
+    </footer>
+</body>
+
+</html>
