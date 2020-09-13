@@ -7,20 +7,20 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link href="css/lightbox.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/36872c4548.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/portfolio-scripts.js"></script>
-    <script src="js/lightbox-plus-jquery.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="js\lightbox-plus-jquery.min.js"></script>
     <title>Jesse Mäkinen - Portfolio</title>
 </head>
 
 
-<body>
+<body class="bg-light">
     <header class="mastheadAlt">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
-                <div class="col-12 text-center text">
+                <div class="col-12 text-center text-white">
                     <h1 class="font-weight-light">Jesse Mäkinen</h1>
                     <p class="lead">Satakunnan Ammattikorkeakoulu</p>
                     <h3>Blog</h3>
@@ -36,51 +36,39 @@
         <div class="container">
             <div class="card mt-5 p-2">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-md-2 float-left mt-auto">
                         <img src="img/rishi-WiCvC9u7OpE-unsplash.jpg" class="card-img" alt="kuva1">
                     </div>
-                    <div class="col-md-10">
-                        <h1>Kotipalvelimen rakennus</h1>
+                    <div class="col-md-10 mt-auto ">
+                        <h1 class="border-bottom border-success">Kotipalvelimen rakennus</h1>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-3">
                     <div class="col-12">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat ab fuga
-                            omnis odit eaque commodi beatae provident officia pariatur, debitis itaque nostrum sunt
-                            expedita
-                            maiores
-                            recusandae at voluptatibus iusto facilis iste assumenda quam earum alias. Reprehenderit
-                            animi
-                            assumenda
-                            asperiores ab, obcaecati consequuntur nemo repellat earum itaque ducimus aliquid. Aut neque
-                            laborum
-                            maxime officiis. Similique sit recusandae sapiente assumenda incidunt molestias ducimus
-                            libero
-                            sint
-                            vitae. Impedit officia, quibusdam deleniti eius molestiae nesciunt labore accusamus ea hic
-                            at
-                            culpa,
-                            recusandae doloribus commodi voluptates in optio. Enim assumenda optio numquam saepe atque
-                            magnam
-                            molestias deleniti, rerum eligendi tenetur dignissimos. Officia, fuga ex omnis pariatur
-                            eaque
-                            assumenda
-                            ipsam? Rerum iusto eaque voluptatem maiores natus sapiente modi quam quis laborum tempore
-                            doloremque
-                            hic, perferendis nobis odio saepe! Amet provident ex aut sequi minima accusamus quo officia,
-                            aliquid
-                            quasi qui tempora itaque culpa atque veniam, perspiciatis excepturi quos temporibus
-                            doloribus
-                            eligendi
-                            dolores quisquam dolore ad! Tempore enim animi omnis aperiam dolores sit eos! Facere,
-                            maiores?
-                            Suscipit
-                            a voluptatem ex, accusamus laborum omnis odio in perferendis eos commodi vitae, eligendi
-                            incidunt
-                            debitis consectetur fuga? Quibusdam, asperiores. Id maiores eum sint, laborum odio molestiae
-                            asperiores
-                            ipsa cumque saepe nisi rerum suscipit fugit earum quas placeat assumenda eligendi delectus.
+                        <p class="card-text">Raspberry Pi -palvelimen jälkeen voidaan sanoa että nälkä kasvaa syödessä
+                            ja edessä oli
+                            tehokkaamman
+                            mutta silti samalla virtapihin ja hilaisen palvelimen suunnittelu. Ja pitkään tori.fi,
+                            io-techin
+                            sekä murobbs myyntipalstaa selaillessa mukaan ovat tarttuneet alla olevat osat.
+                            <br><br>
+                        <h3>Specsit</h3>
+                        <ul>
+                            <li>Koppa: Node 304</li>
+                            <li>Emo: Gigabyte GA-Z77N-WIFI (ITX)</li>
+                            <li>Muistit: 8GB Corsair Vengeance DDR3 1600Mhz (2x4GB)</li>
+                            <li>Prosessori: i3-3220T</li>
+                            <li>Cooleri: Be Quiet Shadow Rock Low Profile</li>
+                            <li>PSU: Seasonic X-Series fanless</li>
+                            <li>Kovalevyt: Hankinnassa...</li>
+                        </ul>
                         </p>
+                        <p class="card-text">
+                            Osien mahduttaminen koppaan oli yllättävän helppoa ja seuraava vaihe on hyvän tarjouksen
+                            metsästäminen
+                            8tb lätyistä.
+                        </p>
+
                     </div>
                 </div>
                 <div class="row">
@@ -108,8 +96,44 @@
                     </div>
                 </div>
             </div>
+            <div class="card mt-5 p-2">
+                <div class="row">
+                    <div class="col-md-2 float-left mt-auto">
+                        <img src="img/rishi-WiCvC9u7OpE-unsplash.jpg" class="card-img" alt="kuva1">
+                    </div>
+                    <div class="col-md-10 mt-auto ">
+                        <h1 class="border-bottom border-success">Raspberry Pi -palvelin</h1>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <p class="card-text"> Tällä hetkellä kotipalvelimen virkaa hoitaa pieni mutta piskuinen
+                            raspberry pi 3 b+ jossa on
+                            kyljessä 2tb ulkoinen kovalevy. Palvelimella ajetaan tällä hetkellä Pi-Hole mainosblokkeria,
+                            samba
+                            fileserveriä, git serveriä sekä plex mediaserveriä. Raspberry pi on ajanut asiansa
+                            yllättävän
+                            tehokkaasti ja suurimmassa käytössä onkin ollut plex palvelin jonka kautta raspberry pi
+                            sitten
+                            puskee elokuvia ja sarjoja ulos telkkariin jopa 4k laadulla.<br><br>
+                            Raspille on jo suunnitteilla muitakin käyttötarkoituksia kunhan vain suurempi palvelin
+                            aikanaan
+                            valmistuu. Ideoita on käyttää pelkkänä web-palvelimena hostaamaan tätä sivua tai kamera
+                            moduulin
+                            kanssa text recognition projektiin.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="blog-container-gallery">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <footer class="col-12 mt-5">
+        <footer class="page-footer col-12 mt-5">
             <address>Jesse Mäkinen, Satakunnan Ammattikorkeakoulu, 0409108303, jessemakinen@hotmail.com
             </address>
         </footer>
