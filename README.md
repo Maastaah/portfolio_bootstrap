@@ -1,4 +1,4 @@
 # portfolio_bootstrap
 
 Jesse Mäkinen
-Porfolio site
+Porfolio site using bootstrap
